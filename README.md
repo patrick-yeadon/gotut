@@ -1,16 +1,6 @@
-# learning-go
+# Project Outline:
+Based from rwxrob's video tutorial for beginners [here](https://www.youtube.com/watch?v=Ot9Em123Fz8)
 
-## Beginner Usages for Go:
-* Creating commands:
-	* Create main.go
-	* `go build`
-	* If using `main.go` You may leave the space after `build` blank to name the executable with your project folder's name, or you may specify `go build main.go` to name the executable `main`
-	* Common practice dictates that `main.go` ought to be explicitly given the same name as your project folder
-* Creating packages:
+# README.World Knowledge Management Utility
 
-## Steps to Reproduce This Project on Windows:
-1. Install [Go](https://golang.org/doc/install)
-2. Initialize github project
-`git clone git@github.com/patrick-yeadon/learning-go`
-3. Initialize mod.go with the url for the github project
-`go mod init github.com/patrick-yeadon/learning-go`
+Knowledge content creation, management, and search tool based on Pandoc and integrated with the README World Exhange (<https:/readme.world>)
